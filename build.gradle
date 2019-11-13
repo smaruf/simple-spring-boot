@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	
+	compile 'com.graphql-java:graphql-spring-boot-starter:5.0.2'
+	compile 'com.graphql-java:graphql-java-tools:5.2.4'
+	
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
