@@ -15,3 +15,4 @@
 13. Spring NIO implementation
 14. Spring web flux implementation
 15. AJAX based jQuery/React implementation
+16. GraphQL implementation with boot
